@@ -5,4 +5,4 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 
 #gem "minimal-mistakes-jekyll"
 
-#gem "webrick", "~> 1.8"
+gem "webrick", "~> 1.8"
