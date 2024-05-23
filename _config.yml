@@ -33,11 +33,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  jekyll
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.26.1"
+# remote_theme: "mmistakes/minimal-mistakes@4.26.1"
+theme : minimal-mistakes-jekyll
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
-  - jekyll-include-cache
+#  - jekyll-include-cache
 
 include: ["_pages"]
 
@@ -45,14 +46,14 @@ atom_feed:
   hide: true
 
 
-copyright: "aa"
+copyright: "Apache License 2.0"
 
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/RS-PYTHON"
 
 
 
