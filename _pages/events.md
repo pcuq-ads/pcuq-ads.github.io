@@ -2,8 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: single
-permalink: /toto/page1/
+layout: posts
+permalink: /rs/events/
 ---
 
-test2
+Here are some articles.
