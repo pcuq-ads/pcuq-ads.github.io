@@ -1,0 +1,8 @@
+main:
+  - title: "page1"
+    url: /toto/page1/
+  - title: "page2"
+    url: /toto/page2/
+  
+    
+    
