@@ -33,20 +33,27 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  jekyll
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.26.1"
 #theme : minimal-mistakes-jekyll
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+ # - jekyll-include-cache
+ 
+# config SERVER 
+remote_theme: "mmistakes/minimal-mistakes@4.26.1"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-include: ["_pages"]
+
+include:
+  - _pages
+  
+
 
 atom_feed:
   hide: true
 
 
-copyright: "Apache License 2.0 SERVEUR"
+copyright: "Apache License 2.0"
 
 
 footer:
@@ -76,3 +83,32 @@ footer:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: false
+
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
