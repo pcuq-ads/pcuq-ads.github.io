@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: posts
-permalink: /rs/events/
+permalink: /events
 ---
 
 Here are some articles.

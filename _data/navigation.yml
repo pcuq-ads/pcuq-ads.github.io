@@ -1,8 +1,9 @@
 main:
-  - title: "Events"
-    url: /rs/events/
   - title: "Features"
-    url: /rs/features/
+    url: /features
+  - title: "Events"
+    url: /events
+
   
     
     

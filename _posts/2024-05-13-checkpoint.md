@@ -1,10 +1,18 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2024-05-23 08:56:27 +0200
-categories: jekyll update
+title:  "RS-Python checkpoint"
+date:   2024-05-13 10:00:00 +0200
+tags:
+  - content
+  - css
+  - edge case
+  - lists
+  - markup
+show_date: true
+categories: rs events
+permalink: /post/toto
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+AA You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
 

@@ -42,7 +42,7 @@ feature_catalog:
     alt: "RS-Server Catalog"
     title: "RS-Server Catalog"
     excerpt: "RS-Server provides a Catalog compliant with the SpatioTemporal Asset Catalog (STAC) format. "
-    url: "#stac-article"
+    url: "/portfolio/catalog"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -56,12 +56,22 @@ feature_staging:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
+feature_prefect:
+  - image_path: /assets/images/architecture/prefect1.png
+    alt: "Workflow as a code"
+    title: "Processing workflow as a code"
+    excerpt: ''
+    url: "#prefect"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+    
+feature_virtual:
+  - image_path: /assets/images/architecture/jup.jpg
+    alt: "Jupyter"
+    title: "Virtual environment"
+    excerpt: ''
+    url: "#jupyter"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
@@ -87,5 +97,7 @@ RS-Server implements the STAC API specification adding an access control per Col
 
 {% include feature_row id="feature_staging" type="right" %}
 
-{% include feature_row id="feature_row4" type="center" %}
+{% include feature_row id="feature_prefect" type="left" %}
+
+{% include feature_row id="feature_virtual" type="right" %}
 
