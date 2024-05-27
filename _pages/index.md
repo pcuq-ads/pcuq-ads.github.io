@@ -6,7 +6,7 @@ date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
-  overlay_image: /assets/images/sentinel/South_Georgia_Island_as_seen_by_Sentinel-2.png
+  overlay_image: /assets/images/sentinel/South_Georgia_Island_as_seen_by_Sentinel-2.jpg
   actions:
     - label: "Download"
       url: "https://github.com/RS-PYTHON"
